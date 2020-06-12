@@ -1,10 +1,14 @@
 {
   "name": "bing-distance-matrix",
   "version": "1.0.0",
-  "description": "Bing Matrix API - A NodeJS package for accessing the the Bing Distance Matrix API",
+  "description": "Bing Distance Matrix - A NodeJS package for accessing the official Bing Distance Matrix API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshSat19/bing-distance-matrix.git"
   },
   "keywords": [
     "bing",
@@ -13,6 +17,6 @@
     "api",
     "nodejs"
   ],
-  "author": "ashwinSathian",
+  "author": "ashwinSathian <ashwinsathyan19@gmail.com>",
   "license": "ISC"
 }

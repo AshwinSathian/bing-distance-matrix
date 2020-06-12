@@ -1,3 +1,6 @@
+
+'use strict'
+
 const https = require('https');
 
 class BingDistanceMatrix {
@@ -23,7 +26,7 @@ class BingDistanceMatrix {
         this.bingMapQueryOpts = {
             origins: [],
             destinations: [],
-            travelMode: 'walking',
+            travelMode: 'driving',
             timeUnit: 'second',
             distanceUnit: 'km'
         }
@@ -34,6 +37,12 @@ class BingDistanceMatrix {
 
     getDistanceMatrix = (options) => {
         return new Promise((resolve, reject) => {
+            if (!options) {
+                console.error('Please pass valid parameters');
+                reject('ERROR: No parameters set');
+                return;
+            }
+
             this.bingMapQueryOpts.origins = options.origins;
             this.bingMapQueryOpts.destinations = options.destinations;
             if (options.travelMode) {
@@ -87,7 +96,7 @@ class BingDistanceMatrix {
                             this.durationResults.push({
                                 originIndex: result.originIndex,
                                 destinationIndex: result.destinationIndex,
-                                distance: result.travelDuration,
+                                duration: result.travelDuration,
                                 unit: this.bingMapQueryOpts.timeUnit
                             });
                         });
