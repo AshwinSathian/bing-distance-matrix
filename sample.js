@@ -1,9 +1,9 @@
 /* 
     The following code illustrates the use of the Bing Distance Matrix package
     for calculating a distance matrix with one or more origins and one or more 
-    destinations. The 'getDistanceMatrix' method deonstrated here fetches the 
-    distance and travel time for every origin-destination combination possible, 
-    for the chosen mode of travel.
+    destinations. The 'getDistanceMatrix' method fetches the distance and 
+    travel time for every origin-destination combination possible for the 
+    chosen mode of travel.
 */
 
 const BingDistanceMatrix = require('bing-distance-matrix');

@@ -1,6 +1,6 @@
 {
   "name": "bing-distance-matrix",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bing Distance Matrix - A NodeJS package for accessing the official Bing Distance Matrix API",
   "main": "index.js",
   "scripts": {
