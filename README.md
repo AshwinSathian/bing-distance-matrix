@@ -68,7 +68,7 @@ Check out the sample code in the package repo or the [official docs](https://doc
 Contact the author for info.
 
 ## Author
-The name is Ashwin Sathian. Drop me a line in my [mail](ashwinsathyan19@gmail.com).
+The name is Ashwin Sathian. Drop me a line in my mail at ashwinsathyan19@gmail.com.
 
 ## License
 This project is licensed under the ISC License.
